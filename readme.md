@@ -97,44 +97,6 @@ This semester you will learn about generative systems and processes, the followi
 
 All assignments accumulate to one final project. All assignments must be documented on your blog.
 
-<!--## Objectives
-
-### Introduction to Processing
-
-### Converting the visual output of a sketch into a video
-
-  - Processing's saveFrame
-	  - Processing allows you to save single frames to disk using the saveFrame command. See the SaveFrame sketch to get started.
-  - Syphon
-	  - Download the [Syphon Recorder](http://syphon.v002.info/recorder/) and use the Syphon Recorder sketch to get started.
-  - ffmpeg
-	  - use the command line and `brew` to install ffmpeg. Brew is a Package Manager for osx. ffmpeg will be used to stitch
-
-### Sketches
-  - Take an image as input and translate sections into bit patterns
-  - Cellular automata
-  - Glitch
-  - Wireframes
-  - Random Walks
-  - Vector Fields
-  - Growth
-
-
-### Evaluation and Manipulation of Video and Audio input
-  - camera input
-  - pixel manipulation on camera input
-  - analysis of camera image
-  - Slitscan
-  - Kinect
-	- realtime
-	- recorded data
-  - Live audio input
-  	- Fast Fourier Transformation
-  	- Amplitude
-
-
-  -->
-
 
 ## Class Preparation
 
@@ -194,13 +156,6 @@ Other frameworks for creative coding include
 - [resonate festival](https://vimeo.com/resonateio)
 - Karsten Schmidt, The Tower of Babel. Resonate Festival 2013. [link](http://resonate.io/main/2013/08/19/the-tower-of-babel-karsten-schmidt-at-resonate-2013/)
 
-<!--
-### Gallery
-
-
-### Others
-  - [shadertoy](https://www.shadertoy.com/)
--->
 ### Inspiration
 
 |     |     |  |
