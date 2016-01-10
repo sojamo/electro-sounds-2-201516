@@ -1,5 +1,30 @@
 # Electro Sounds
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Semester 2](#semester-2)
+- [Sessions](#sessions)
+  - [Session 1: Getting Started](#session-1-getting-started)
+  - [Session 2: From Sketch to Video](#session-2-from-sketch-to-video)
+  - [Session 3: Algorithms and Aesthetics](#session-3-algorithms-and-aesthetics)
+  - [Session 4: From Input to Output](#session-4-from-input-to-output)
+  - [Session 5: Open Session](#session-5-open-session)
+- [Assignments](#assignments)
+- [Class Preparation](#class-preparation)
+- [Keywords](#keywords)
+- [Resources](#resources)
+  - [Frameworks](#frameworks)
+  - [Readings](#readings)
+  - [Getting Started](#getting-started)
+  - [Talks](#talks)
+  - [Inspiration](#inspiration)
+  - [Misc](#misc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 ## Semester 2
 
 
@@ -87,7 +112,7 @@ Furthermore we will look into the characteristics and strategies of computation 
 
 **Assignment D** due Monday of week 16
 
-## Assignment
+## Assignments
 This semester you will learn about generative systems and processes, the following 4 assignments will help you exercise and practice various coding techniques covered in class.
 
   1. **Assignment A** Create a series of 3 sketches that resemble one work of each of the following artists: Frieder Nake, Sol Lewitt, Ryoji Ikeda. *(naming convention, sketch size is 960x540, include image in data folder)*
@@ -171,7 +196,7 @@ Other frameworks for creative coding include
 
 ### Misc
 
-  - To keep your code organized and in one place, consider to use github to host your code repositories.
+  - To keep your code organized and in one place, consider to use [github](https://www.github.com/) (create an account for free) to host your code repositories. Github offers a GUI [desktop app](https://desktop.github.com/) that makes it very easy to create and update repositories.
   - Some exercises require you to write short texts, do consider to write these text in markdown, a very simple formatting syntax for writing text inside simple text editors.
 
 
