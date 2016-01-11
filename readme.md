@@ -81,7 +81,7 @@ To successfully complete all required assignments, the following concepts must b
 ### Session 2: From Sketch to Video
 **Week 5-6** In this session you will familiarize yourself with different recording methods to capture the visual output of your Processing sketches.
 
-  - saveFrame
+  - saveFrame <!-- https://www.youtube.com/watch?v=ud1WQgQzFWU -->
   - Syphon
   - ffmpeg
 
@@ -106,11 +106,12 @@ Furthermore we will look into the characteristics and strategies of computation 
 *Assignment C* due week 11
 
 ### Session 5: Open Session
-**Week 10-11**.
+**Week 10-15**.
   - work on your *Assignment D* project, class attendance is required.
   - individual tutorials upon appointment
 
 **Assignment D** due Monday of week 16
+
 
 ## Assignments
 This semester you will learn about generative systems and processes, the following 4 assignments will help you exercise and practice various coding techniques covered in class.
@@ -125,7 +126,7 @@ All assignments accumulate to one final project. All assignments must be documen
 
 ## Class Preparation
 
-What you need to prepare for for the following week, or just to recap what has happened the current week.
+What you need to prepare for the following week, or just to recap what has happened the current week.
 
 | Week    | Prepare for the following week    |
 | :------------- | :------------- |
@@ -142,8 +143,9 @@ What you need to prepare for for the following week, or just to recap what has h
 
   - Generative Art
   - Generative Process
-  - Parameters
-  - System
+  - Data, Parameters
+  - Input, Process, Output
+  - Systems
   - Code
   - Creative Coding
   - Computational
@@ -172,7 +174,8 @@ Other frameworks for creative coding include
 ### Getting Started
 - Daniel Shiffman's [Processing Tutorials](https://www.youtube.com/user/shiffman/playlists) on youtube, episodes 0-17
 - [The Nature of Code](http://natureofcode.com/) by Daniel Shiffman also available as [video tutorials](https://www.youtube.com/user/shiffman/playlists), Processing Tutorials, The Nature of Code.
-- [Processing Documentation]()
+- [Processing Reference](https://processing.org/reference/)
+- [Processing Tutorials](https://processing.org/tutorials/)
 - [Processing Forum](https://forum.processing.org/two/discussions)
 
 
@@ -185,7 +188,7 @@ Other frameworks for creative coding include
 
 |     |     |  |
 | ------------- | ------------- | ------------- |
-| [Sol Lewitt](https://www.google.com.sg/search?q=sol+lewitt)         | [Casey Reas](http://reas.com)|  [Generator X](http://www.generatorx.no/) |
+| [Sol Lewitt](https://www.google.com.sg/search?q=sol+lewitt&source=lnms&tbm=isch&sa=X)| [Casey Reas](http://reas.com)|  [Generator X](http://www.generatorx.no/) |
 | [Frider Nake](http://dada.compart-bremen.de/item/agent/68)       | [Marius Watz](http://mariuswatz.com/)| [Data is Nature](http://www.dataisnature.com/)   |
 | [Manfred Mohr](http://www.emohr.com/)         | [Karsten Schmidt](http://thi.ng/)| [Creative Applications](http://www.creativeapplications.net/)   |
 | [Vera Molnar](http://www.veramolnar.com/)     | [Memo Akten](http://www.memo.tv/category/work/by-type/) | [Generative Design](http://www.generative-gestaltung.de/)   |
@@ -197,7 +200,7 @@ Other frameworks for creative coding include
 ### Misc
 
   - To keep your code organized and in one place, consider to use [github](https://www.github.com/) (create an account for free) to host your code repositories. Github offers a GUI [desktop app](https://desktop.github.com/) that makes it very easy to create and update repositories.
-  - Some exercises require you to write short texts, do consider to write these text in markdown, a very simple formatting syntax for writing text inside simple text editors.
+  - Some exercises require you to write short texts, do consider to write these texts in markdown, a very simple formatting syntax for writing text inside simple text editors like TextEdit, Sublime Text, or Atom. On osx add a markdown quickview (for example [qlmarkdown](https://github.com/toland/qlmarkdown/releases) but there are more out there) to see your document rendered in markdown when quick-viewing it.
 
 
 [1]: http://www.philipgalanter.com/downloads/ga2003_paper.pdf "What is Generative Art?"
