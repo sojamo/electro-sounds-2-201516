@@ -76,14 +76,15 @@ To successfully complete all required assignments, the following concepts must b
 		  - VideoExport
 
 
+
 *Assignment A* due in week 4.
 
 ### Session 2: From Sketch to Video
 **Week 5-6** In this session you will familiarize yourself with different recording methods to capture the visual output of your Processing sketches.
 
-  - saveFrame <!-- https://www.youtube.com/watch?v=ud1WQgQzFWU -->
-  - Syphon
-  - ffmpeg
+  - saveFrame, how to use Processing's saveFrame function and the [MovieMaker](https://www.youtube.com/watch?v=ud1WQgQzFWU) Tool<!-- https://www.youtube.com/watch?v=ud1WQgQzFWU -->
+  - Syphon, how to use [Syphon recorder](http://syphon.v002.info/recorder/) to record Processing sketches
+  - ffmpeg, how to use ffmpeg with the [VideoExport](http://funprogramming.org/VideoExport-for-Processing/) library to record a Processing sketch  
 
 ### Session 3: Algorithms and Aesthetics
 
@@ -101,7 +102,7 @@ Furthermore we will look into the characteristics and strategies of computation 
 *Assignment B* due in week 9.
 
 ### Session 4: From Input to Output
-**Week 10-11**. In this session we will look at different forms of input and how they lead to output through processing incoming data.
+**Week 10-11**. In this session we will look at different forms of input and how they lead to output through evaluating and translating incoming data. We will briefly look at the MIDI and OSC protocol and will look at the Duration app, a timeline editor for creative coding, which can be used to synchronize tracks with Processing generated visuals. [Duration introduction](https://vimeo.com/59654979)
 
 *Assignment C* due week 11
 
@@ -109,6 +110,7 @@ Furthermore we will look into the characteristics and strategies of computation 
 **Week 10-15**.
   - work on your *Assignment D* project, class attendance is required.
   - individual tutorials upon appointment
+
 
 **Assignment D** due Monday of week 16
 
@@ -199,8 +201,12 @@ Other frameworks for creative coding include
 
 ### Misc
 
-  - To keep your code organized and in one place, consider to use [github](https://www.github.com/) (create an account for free) to host your code repositories. Github offers a GUI [desktop app](https://desktop.github.com/) that makes it very easy to create and update repositories.
+  - To keep your code organized and in one place, consider to use [Github](https://www.github.com/) (create an account for free) to host your code repositories. Github offers a GUI [desktop app](https://desktop.github.com/) that makes it very easy to create and update repositories. Please read through
+    - [Getting your project on Github](https://guides.github.com/introduction/getting-your-project-on-github/) using the github Desktop application
+    - [Github's Clone to Desktop](http://joe.blog.freemansoft.com/2014/04/github-clone-to-desktop-with-windows.html) shows you how to clone a repository to your local desktop using Github's Desktop application. This is very useful to for example keep track of the class repository which will continuously be updated as we proceed.
   - Some exercises require you to write short texts, do consider to write these texts in markdown, a very simple formatting syntax for writing text inside simple text editors like TextEdit, Sublime Text, or Atom. On osx add a markdown quickview (for example [qlmarkdown](https://github.com/toland/qlmarkdown/releases) but there are more out there) to see your document rendered in markdown when quick-viewing it.
+  - Some insightful tips about being a beginner, intermediate or advanced programmer: [A guide on how to be a programmer](https://github.com/braydie/HowToBeAProgrammer)
+
 
 
 [1]: http://www.philipgalanter.com/downloads/ga2003_paper.pdf "What is Generative Art?"
