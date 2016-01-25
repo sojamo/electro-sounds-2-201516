@@ -15,6 +15,6 @@ uniform float time;
 void main(void) {
   float r = mouse.x/resolution.x;
   float g = mouse.y/resolution.y;
-  // g *= (1 + sin(time+gl_FragCoord.x*0.1))/2;
+  g *= (1 + sin(time+gl_FragCoord.x*0.1))/2;
   gl_FragColor = vec4(r, g, 0.5, 1.0);
 }
