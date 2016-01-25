@@ -82,7 +82,7 @@ To successfully complete all required assignments, the following concepts must b
 ### Session 2: From Sketch to Video
 **Week 5-6** In this session you will familiarize yourself with different recording methods to capture the visual output of your Processing sketches.
 
-  - saveFrame, how to use Processing's saveFrame function and the [MovieMaker](https://www.youtube.com/watch?v=ud1WQgQzFWU) Tool<!-- https://www.youtube.com/watch?v=ud1WQgQzFWU -->
+  - saveFrame, how to use Processing's saveFrame function and the [MovieMaker](https://www.youtube.com/watch?v=ud1WQgQzFWU) Tool
   - Syphon, how to use [Syphon recorder](http://syphon.v002.info/recorder/) to record Processing sketches
   - ffmpeg, how to use ffmpeg with the [VideoExport](http://funprogramming.org/VideoExport-for-Processing/) library to record a Processing sketch  
 
