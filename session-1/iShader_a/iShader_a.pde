@@ -14,10 +14,11 @@ void draw() {
   background(0);
   /* set the mouse variable of the shader */
   shader.set("mouse", float(mouseX), float(mouseY));
-  // shader.set("time", frameCount*0.1);
+  shader.set("time", frameCount*0.1);
   
   /* apply the shader to the shapes rendered afterwards */
   fill(255,0,0);
-  rect(20,20,width-40,height-40);
+  translate(width/2, height/2);
+  ellipse(20,20,width-40,height-40);
   shader(shader);
 }
