@@ -6,7 +6,6 @@ void settings() {
   size(1024, 768, P3D);
   PJOGL.profile=1;
   smooth(8);
-  
 }
 
 
