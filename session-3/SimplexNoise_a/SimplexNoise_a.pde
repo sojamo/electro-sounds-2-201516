@@ -6,7 +6,7 @@ void setup() {
 
 
 void draw() {
-  float scl = map(mouseX,0,width,0.001, 0.1);
+  float scl = map(mouseX,0,width,0.001, 0.4);
   int steps = 1;
   for(int x=0;x<width;x+=steps) {
     for(int y=0;y<height;y+=steps) {

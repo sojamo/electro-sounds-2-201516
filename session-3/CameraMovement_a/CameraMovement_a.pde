@@ -1,3 +1,10 @@
+import ddf.minim.*;
+import ddf.minim.analysis.*;
+
+Minim minim;
+BeatDetect beat;
+AudioInput in;
+
 float x,y,z;
 float nx,ny,nz;
 
@@ -6,13 +13,22 @@ float ncx,ncy,ncz;
 
 void setup() {
   size(960,540,P3D);
+  minim = new Minim(this);
+  beat = new BeatDetect();
+  in = minim.getLineIn();
 }
 
 
 void draw() {
+  beat.detect(in.mix);
+  if(beat.isOnset()) {
+   nz = 300;
+   z = 500;
+   println("beat detected");
+  } 
   background(0);
   translate(width/2, height/2);
-  float scl = 0.01;
+  float scl = 0.1;
   
   x += (nx-x)*scl;
   y += (ny-y)*scl;
