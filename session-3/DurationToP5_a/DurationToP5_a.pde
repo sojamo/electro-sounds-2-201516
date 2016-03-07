@@ -46,13 +46,13 @@ void oscEvent(OscMessage m) {
   // each of these layer correspond to the 
   // address pattern of an OscMessage
   
-  if (m.getAddress().equals("/bangs")) {
+  if (m.addrPattern().equals("/bangs")) {
     // a bang is just a signal without data
     col = int(random(255));
     show = !show;
     println("got a bang", m);
   } 
-  else if (m.getAddress().equals("/c/1")) {
+  else if (m.addrPattern().equals("/c/1")) {
     // a color message contains 3 int values: r,g,b
     // extract data using the get(theIndex) function
     int r = m.get(0).intValue();
@@ -61,13 +61,13 @@ void oscEvent(OscMessage m) {
     col = color(r,g,b);
     println("got a color", m);
   }
-  else if (m.getAddress().equals("/audio")) {
+  else if (m.addrPattern().equals("/audio")) {
     // here the OscMessage contains fft data
     // we transfer the data from the OscMessage into
     // an ArrayList which we can then later use 
     // inside draw for example. 
     audio.clear();
-    for(Object o:m.getArguments()) {
+    for(Object o:m.arguments()) {
       audio.add(((Float)o).floatValue());
     }
   }
