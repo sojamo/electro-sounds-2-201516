@@ -17,11 +17,11 @@ void setup() {
 
 void draw() {
   background(0);
-  
+  lights();
+  noStroke();
   if(isModeActive(FLICKER)) {
     background(random(255));
   }
-  
   
   if(isModeActive(CIRCLE)) {
     pushMatrix();
@@ -39,6 +39,7 @@ void draw() {
     box(100);
     popMatrix();
   }
+  
 }
 
 boolean isModeActive(int theMode) {
@@ -48,8 +49,8 @@ boolean isModeActive(int theMode) {
 
 void keyPressed() {
   switch(key) {
-    case('1'):mode ^= 1;break;
-    case('2'):mode ^= 2;break;
-    case('3'):mode ^= 4;break;
+    case('1'):mode ^= CUBE;break;
+    case('2'):mode ^= CIRCLE;break;
+    case('3'):mode ^= FLICKER;break;
   }
 }
