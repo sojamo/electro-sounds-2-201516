@@ -201,11 +201,13 @@ Other frameworks for creative coding include
 
 ### Misc
 
-  - To keep your code organized and in one place, consider to use [Github](https://www.github.com/) (create an account for free) to host your code repositories. Github offers a GUI [desktop app](https://desktop.github.com/) that makes it very easy to create and update repositories. Please read through
-    - [Getting your project on Github](https://guides.github.com/introduction/getting-your-project-on-github/) using the github Desktop application
-    - [Github's Clone to Desktop](http://joe.blog.freemansoft.com/2014/04/github-clone-to-desktop-with-windows.html) shows you how to clone a repository to your local desktop using Github's Desktop application. This is very useful to for example keep track of the class repository which will continuously be updated as we proceed.
-  - Some exercises require you to write short texts, do consider to write these texts in markdown, a very simple formatting syntax for writing text inside simple text editors like TextEdit, Sublime Text, or Atom. On osx add a markdown quickview (for example [qlmarkdown](https://github.com/toland/qlmarkdown/releases) but there are more out there) to see your document rendered in markdown when quick-viewing it.
-  - Some insightful tips about being a beginner, intermediate or advanced programmer: [A guide on how to be a programmer](https://github.com/braydie/HowToBeAProgrammer)
+  1. To keep your code organized and in one place, consider to use [Github](https://www.github.com/) (create an account for free) to host your code repositories. Github offers a GUI [desktop app](https://desktop.github.com/) that makes it very easy to create and update repositories. Please read through
+    1. [Getting your project on Github](https://guides.github.com/introduction/getting-your-project-on-github/) using the github Desktop application
+    2. [Github's Clone to Desktop](http://joe.blog.freemansoft.com/2014/04/github-clone-to-desktop-with-windows.html) shows you how to clone a repository to your local desktop using Github's Desktop application. This is very useful to for example keep track of the class repository which will continuously be updated as we proceed.
+  2. Some exercises require you to write short texts, do consider to write these texts in markdown, a very simple formatting syntax for writing text inside simple text editors like TextEdit, Sublime Text, or Atom. On osx add a markdown quickview (for example [qlmarkdown](https://github.com/toland/qlmarkdown/releases) but there are more out there) to see your document rendered in markdown when quick-viewing it.
+  3. Some insightful tips about being a beginner, intermediate or advanced programmer: [A guide on how to be a programmer](https://github.com/braydie/HowToBeAProgrammer)
+  4. To convert a video to another format, consider using the open source video transcoder [handbrake](https://handbrake.fr/)
+  5. To familiarize yourself with the markdown format, visit the [howtomarkdown](http://howtomarkdown.com/) page. To write and edit markdown documents use the markdown editor [MacDown](http://macdown.uranusjr.com/). Otherwise use TextEdit (make sure your document is in _Plain Text_ mode, Format → Make Plain Text) or use a text editor like [Atom](https://atom.io/) or [Sublime Text](http://www.sublimetext.com/). Also see point 2 above to view markdown documents using quickview (quickview: on osx select a document and press the space bar).
 
 
 
